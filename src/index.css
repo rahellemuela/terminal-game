@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* Hilangkan scrollbar agar immersive */
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
