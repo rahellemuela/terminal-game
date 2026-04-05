@@ -24,8 +24,8 @@ function App() {
   };
 
   const getClueText = (s) => {
-    if (s === 1) return "Masukkan Nama Subjek untuk Memulai...";
-    if (s === 2) return "Dekripsi Lokasi Berkas... (Hint: 2-8-5-7)";
+    if (s === 1) return "Masukkan Nama Anda untuk Memulai...";
+    if (s === 2) return "Dekripsi Lokasi Berkas... ";
     if (s === 3) return "Konfirmasi Status Jiwa...";
     if (s === 4) return "TERMINAL BLACKOUT. MASUKKAN KUNCI TERAKHIR...";
   };
